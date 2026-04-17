@@ -689,7 +689,7 @@ return array(
     "country_list_aria_label"   => "Liste over land",
     "zero_search_results"       => "Ingen resultater funnet",
     "one_search_result"         => "1 resultat funnet",
-    "multiple_search_results"   => "${count} resultater funnet", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "\${count} resultater funnet", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Avansert",
     "table"                     => "Tabell",
     "cell"                      => "Celle",
