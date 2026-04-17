@@ -137,4 +137,11 @@ return array(
      * 5.1.0
      */
     "manage_report"     => "Administrer rapporter",
+
+    
+    /*
+     * 5.7.0
+     */
+    "operatornotification" => "Administrer operatørvarsler",
+    "replytemplate"     => "Administrer egne svarmaler",
 );

@@ -369,7 +369,6 @@ return array(
     "multi_ip"                  => "Multi-IP-støtte",
     "multi_ip_desc"             => "Tillater å låse SupportPal til mer enn én intern eller ekstern IP.",
     "purchase"                  => "Kjøp",
-    "ticket_number_missing"     => "For saksrelaterte e-poster må {{ ticket.number }}-flettefeltene være til stede i e-postemnet og pakket inn i enten <em>[#{{ ticket.number }}]</em> eller <em>(#{{ ticket.number }})</em> for å rute svar til riktig sak. Hvis du vil fjerne saksnummeret, vurder å aktivere <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>e-post underadressering</a>.",
 
     /*
      * 2.5.0
@@ -662,7 +661,6 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "Vi tilbyr et antall standardkanaler. Du kan aktivere og konfigurere Facebook- og Twitter-kanalene for å samle saker generert via sosiale medier.",
     "incoming_duplicate"        => "Innkommende (duplikat)",
 
     /*
@@ -682,4 +680,86 @@ return array(
     "hcaptcha_desc"             => "Registrer deg på <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Kopier site og secret key ovenfor.",
     "captcha_type_desc"         => "Velg den captchaen som skal brukes gjennom systemet. Vi anbefaler å bytte til Google reCAPTCHA, som krever ytterligere konfigurering.",
 
+    /*
+     * 5.5.0
+     */
+    "ticket_channel_2"          => "Vi tilbyr en rekke standard sakskanaler. Flere kanaler og andre tillegg kan installeres fra tilleggsmarkedsplassen.",
+    "selected_country_aria_label" => "Valgt land",
+    "no_country_selected"       => "Ingen land valgt",
+    "country_list_aria_label"   => "Liste over land",
+    "zero_search_results"       => "Ingen resultater funnet",
+    "one_search_result"         => "1 resultat funnet",
+    "multiple_search_results"   => "${count} resultater funnet", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "Avansert",
+    "table"                     => "Tabell",
+    "cell"                      => "Celle",
+    "cell_properties"           => "Celleegenskaper",
+    "merge_cells"               => "Slå sammen celler",
+    "split_cell"                => "Del celle",
+    "row"                       => "Rad",
+    "inset_row_before"          => "Sett inn rad før",
+    "inset_row_after"           => "Sett inn rad etter",
+    "delete_row"                => "Slett rad",
+    "row_properties"            => "Radegenskaper",
+    "cut_row"                   => "Klipp ut rad",
+    "copy_row"                  => "Kopier rad",
+    "paste_row_before"          => "Lim inn rad før",
+    "paste_row_after"           => "Lim inn rad etter",
+    "column"                    => "Kolonne",
+    "insert_column_before"      => "Sett inn kolonne før",
+    "insert_column_after"       => "Sett inn kolonne etter",
+    "delete_column"             => "Slett kolonne",
+    "cut_column"                => "Klipp ut kolonne",
+    "copy_column"               => "Kopier kolonne",
+    "paste_column_before"       => "Lim inn kolonne før",
+    "paste_column_after"        => "Lim inn kolonne etter",
+    "table_properties"          => "Tabellegenskaper",
+    "delete_table"              => "Slett tabell",
+    "width"                     => "Bredde",
+    "height"                    => "Høyde",
+    "cell_spacing"              => "Celleavstand",
+    "cell_padding"              => "Cellepolstring",
+    "border_width"              => "Kantbredde",
+    "caption"                   => "Bildetekst",
+    "show_caption"              => "Vis bildetekst",
+    "alignment"                 => "Justering",
+    "border_style"              => "Kantstil",
+    "border_colour"             => "Kantfarge",
+    "cell_type"                 => "Celletype",
+    "scope"                     => "Omfang",
+    "horizontal_align"          => "Horisontal justering",
+    "vertical_align"            => "Vertikal justering",
+    "header_cell"               => "Topptekstcelle",
+    "row_group"                 => "Radgruppe",
+    "column_group"              => "Kolonnegruppe",
+    "left"                      => "Venstre",
+    "center"                    => "Midtstilt",
+    "right"                     => "Høyre",
+    "top"                       => "Topp",
+    "middle"                    => "Midten",
+    "bottom"                    => "Bunn",
+    "anchor"                    => "Anker",
+    "example"                   => "Eksempel",
+
+    /*
+     * 5.6.0
+     */
+    "email_template_enabled_desc" => "Deaktivering av e-postmalen vil forhindre at varsler som bruker denne malen blir sendt.",
+    "template_disabled"         => "Mal deaktivert",
+    "reset_email_template"      => "Dette vil oppdatere editoren med standard e-postmalinnhold. Eventuelle tidligere endringer vil gå tapt når e-postmalen lagres.",
+
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "Markørposisjon",
+    "set_cursor_position"       => "Sett markørposisjon",
+    "private_message_notification" => "Ny privat operatørmelding",
+    "private_message_notification_desc" => "Varsler deg når du mottar korrespondanse fra en annen operatør via privat melding.",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "Heltrukket",
+    "dashed"                    => "Stiplet",
+    "dotted"                    => "Prikket",
 );

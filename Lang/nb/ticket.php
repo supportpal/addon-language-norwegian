@@ -291,11 +291,6 @@ return array(
     "type_in_tags"              => "Skriv inn tagger",
 
     /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "Liste med filendelser, separert av | tegnet, som er tillatt som vedlegg. For eksempel: txt|png|jpg. For å tillate alle filtyper, skriv inn: ?.*",
-
-    /*
      * 2.0.2
      */
     "no_operator_groups"        => "Ingen operatørgruppe funnet. Klikk <a href=':route'>her</a> for å opprette en.",
@@ -452,7 +447,7 @@ return array(
     "macro_type"                => "Makrotype",
     "macro_type_desc"           => "Det er tre typer makroer tilgjengelig. Manuelle makroer kan kun kjøres fra saksvisning eller oversikten. Automatiske makroer kjøres på uløste saker hver time, og hook-makroer kjøres på spesifiserte sakshendelser. Automatiske og hook-makroer kan også defineres til kun å kjøre innenfor bestemte tidsplaner. Enhver hook-makrohandling vil ikke utløse andre hook-makroer. Dette gjøres for å unngå løkker.",
     "macro_run_at_most"         => "Kjør maksimalt",
-    "macro_run_times"           => "ganger", // As in '5 ganger'
+    "macro_run_times"           => "ganger", // As in '5 times'
     "macro_run_at_most_desc"    => "Begrens hvor mange ganger en automatisk makro kan kjøres på den samme saken, la stå tomt for å la en makro kjøre et ubegrenset antall ganger.",
     "macro_events_desc"         => "Velg én eller flere hendelser som makroer skal kjøres ved. Betingelsene satt nedenfor vil bli kontrollert før en makro kjøres.",
     "macro_schedules_desc"      => "Makroen vil som standard kjøre 24/7, men du kan velge én eller flere helpdesk-tidsplaner slik at makroen kun er aktiv innenfor disse.",
@@ -538,8 +533,6 @@ return array(
     "append_ip_address_api_desc" => "Legg til brukerens IP-adresse på slutten av saksmeldingene deres (krever at user_ip_address-data leveres).",
     "check_spam"                => "Sjekk spamregler",
     "check_spam_api_desc"       => "Blokker meldinger som samsvarer med spamregler.",
-    "enable_throttling"         => "Aktiver hastighetsbegrensning",
-    "enable_throttling_api_desc" => "Begrens antall meldinger brukere kan legge inn innenfor et tidsrom. Se <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Hastighetsbegrensningskonfigurasjon</a> for mer informasjon om hvordan du justerer grensene.",
     "captcha_desc"              => "Når skal captcha vises for brukere som åpner nye saker",
 
     /*
@@ -573,4 +566,51 @@ return array(
     "reject_duplicate_emails_desc" => "Stopp e-poster fra å bli importert mer enn én gang, oppdaget basert på Message-ID-headeren.",
     "duplicate_email_detected"  => "Duplikat e-post som allerede er importert.",
 
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "Frekvensbegrensning",
+    "max_requests"              => "Maks forespørsler",
+    "max_requests_desc"         => "Angi maksimalt antall forespørsler før en bruker blir begrenset.",
+    "decay_time"                => "Tilbakestillingstid",
+    "decay_time_desc"           => "Antall minutter til tilgjengelige forsøk tilbakestilles.",
+    "exclude_addresses"         => "Ekskluder adresser",
+    "exclude_addresses_desc"    => "En liste over e-postadresser som er unntatt fra frekvensbegrensninger.",
+    "enable_throttling"         => "Aktiver frekvensbegrensning",
+    "enable_throttling_api_desc" => "Begrens antall saker og meldinger brukere kan sende innenfor en tidsperiode, etter dette vil de bli begrenset. Grensene kan justeres under Web-kanalinnstillingene.",
+    "close_without_notify"      => "Lukk (uten varsling)",
+    "lock"                      => "Lås",
+    "pin"                       => "Fest",
+    "unpin"                     => "Løsne",
+
+    /*
+     * 5.6.0
+     */
+    "copy_to_new_filter"        => "Kopier til nytt filter",
+    "alias_support"             => "Alias-støtte",
+    "alias_support_desc"        => "Alias-støtte analyserer mottakeradressene i innkommende e-poster for å avgjøre hvilken avdeling e-posten skal åpnes i. Deaktivering av alias-støtte vil åpne alle e-poster i avdelingen de ble hentet fra, uavhengig av mottakeradressene.",
+
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "Kjør som",
+    "run_as_operator_desc"      => "Utfør følgende handlinger som den valgte operatøren: \":actions\"",
+    "use_ticket_print_view"     => "Vennligst bruk den dedikerte utskriftsvisningen for å skrive ut denne saken. Du finner den ved å klikke på 'Skriv ut'-valget i saksvisningen.",
+    "save_feedback"             => "Lagre tilbakemelding",
+    "ticket_opened_notification" => "Ny sak åpnet",
+    "ticket_opened_notification_desc" => "Varsler deg når en ny bruker- eller intern sak er åpnet.",
+    "user_reply_notification"   => "Brukersvar på sak",
+    "user_reply_notification_desc" => "Varsler deg når en bruker svarer på en eksisterende sak.",
+    "operator_reply_notification" => "Operatørsvar på sak",
+    "operator_reply_notification_desc" => "Varsler deg når en annen operatør svarer på en sak.",
+    "operator_note_notification" => "Operatørnotat på sak",
+    "operator_note_notification_desc" => "Varsler deg når en annen operatør legger til et notat på en sak.",
+    "assigned_notification"     => "Tildelt sak",
+    "assigned_notification_desc" => "Varsler deg når du blir tildelt en sak.",
+    "department_changed_notification" => "Avdeling endret",
+    "department_changed_notification_desc" => "Varsler deg når en sak bytter avdeling.",
+    "mention_notification"       => "Nevnt",
+    "mention_notification_desc" => "Varsler deg når du blir nevnt i en sak.",
+    "mark_resolved_and_post_reply" => "Merk som løst og publiser svar",
+    "allowed_files_desc"        => "Aktiver for å tillate alle filtyper, eller deaktiver og spesifiser en liste over filendelser. Listen må være avgrenset med tegnet |, for eksempel: txt|png|jpg.",
 );

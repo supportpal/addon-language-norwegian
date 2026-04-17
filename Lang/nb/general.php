@@ -154,7 +154,7 @@ return array(
     "record"                    => "post",
     "views"                     => "visninger",
     "of"                        => "i",            // Used in group e.g. Last Thursday of November
-    "to"                        => "til",           // Used in a range e.g. 2 to 5
+    "to"                        => "til",          // Used in a range e.g. 2 to 5
 
     // Languages
     "language"                  => "Språk|Språk",
@@ -428,5 +428,16 @@ return array(
     "opened"                    => "Åpnet",
     "week"                      => "Uke|Uker",
     "quarter"                   => "Kvartal|Kvartaler",
+
+
+    /*
+     * 5.5.0
+     */
+    "mark_as_done"              => "Merk som ferdig",
+    /*
+     * 5.7.0
+     */
+    "bot"                       => "Bot|Boter",
+    "allow_all"                 => "Tillat alle",
 
 );

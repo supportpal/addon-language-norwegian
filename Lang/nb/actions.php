@@ -26,7 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Lukk og lås sak",
     "unlock_ticket"             => "Lås opp sak",
     "update_sla_plan"           => "Oppdater SLA-plan",
     "update_subject"            => "Oppdater emne",
@@ -82,5 +81,13 @@ return array(
     "clear_reply_due_time"      => "Tøm frist for svar",
     "pause_due_times"           => "Sett frister på pause",
     "unpause_due_times"         => "Gjenoppta frister",
+
+    
+    /*
+     * 5.5.0
+     */
+    "close_ticket"              => "Lukk sak",
+    "lock_ticket"               => "Lås sak",
+    "notify_user"               => "Varsle bruker",
 
 );

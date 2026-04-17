@@ -267,4 +267,14 @@ return array(
     "ticket_feedback_saved"             => "Lagret :extra_rel1 på sak #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
     "selfservice_feedback_saved"        => "Lagret :extra_rel1 på artikkel :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
 
+    /*
+     * 5.5.0
+     */
+    "ticket_pinned_message"             => "Festet :extra_rel1 på sak #:rel.", // Pinned message (lowercase general.message) on ticket #123.
+    "ticket_unpinned_message"           => "Løsnet :extra_rel1 på sak #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
+
+    /*
+     * 5.7.0
+     */
+    "operator_notifications_updated"    => "Oppdaterte varslingsinnstillingene til :rel.", // Updated Joe Blog's notification preferences.
 );

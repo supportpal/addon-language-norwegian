@@ -165,4 +165,9 @@ return array(
     "total_tickets_canned_responses_used" => "Totalt antall saker med standardsvar brukt",
     "operators_most_used_responses"     => "Operatører med flest standardsvar brukt",
 
+    /*
+     * 5.7.0
+     */
+    "group_by"                          => "Grupper etter",
+
 );

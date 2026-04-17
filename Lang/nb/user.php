@@ -86,9 +86,6 @@ return array(
 
     "operator_details"              => "Operatørdetaljer",
 
-    "email_notifications"           => "E-postvarsler",
-    "email_notifications_desc"      => "E-postvarslene som vil bli mottatt fra systemet.",
-
     "enable_ldap"                   => "Aktiver LDAP-innlogging",
     "enable_ldap_desc"              => "Hvis du bruker LDAP kan du aktivere det for operatørinnlogging. Etter aktivering, gå til LDAP-kontoinnstillinger for å konfigurere.",
     "user_reg_enabled"              => "Brukerregistrering aktivert",
@@ -132,7 +129,6 @@ return array(
     "two_fa_code"                   => "2FA-kode",
     "two_fa_secret"                 => "2FA-hemmelighet",
     "two_fa_secret_desc"            => "Lagre vennligst denne på et sikkert sted da du vil trenge den hvis du trenger å gjenopprette din authenticator-konto på telefonen.",
-    "display_notifications"         => "Vis varsler",
     "desktop_notifications"         => "Skrivebordsvarslinger",
     "browser_notifications"         => "Nettleservarslinger",
 
@@ -373,11 +369,6 @@ return array(
     "verify_to_view_tickets"        => "Bekreft vennligst alle tilleggsadresser for e-post eller fjern ubekreftede e-postadresser under kontoprofilen din.",
 
     /*
-     * 5.2.3
-     */
-    "display_notifications_desc"    => "Systemet vil varsle deg når nye saker eller svar opprettes. Eller når andre operatører logger inn. Du kan velge mellom skrivebordsvarslinger, nettleservarslinger eller ingen varslinger.",
-
-    /*
      * 5.3.0
      */
     "email_verified"                => "E-post bekreftet",
@@ -385,5 +376,36 @@ return array(
     "new_operator_account_desc"     => "Du kan sende en bekreftelse-e-post for å la operatøren sette opp sin egen konto, eller bruk bryteren for å sette et passord for dem nedenfor.",
     "operator_set_password_desc"    => "Skriv vennligst inn et passord nedenfor for å fullføre oppsettet av operatørkontoen din.",
     "password_set_success"          => "Passord satt!",
-
+    
+    /*
+     * 5.7.0
+     */
+    "reply_template_cursor_position" => "Bruk 'Sett markørposisjon'-valget i editoren for å angi hvor markøren skal plasseres når brukeren åpner editoren for å svare på en sak.",
+    "system_bot_desc"               => "Dette er en systembot-konto som brukes til automatiserte handlinger. Du kan bare redigere navn og avatar.",
+    "notification_settings"         => "Varslingsinnstillinger",
+    "operator_notifications"        => "Operatørvarsler",
+    "operator_notifications_desc"   => "Oppdater varslingsinnstillingene for operatørkontoen.",
+    "default_department_subscription" => "Standard avdelingsabonnement",
+    "default_department_subscription_desc" => "Angi standard varslingsabonnement for å bestemme når varsler sendes ved sakshendelser. Dette abonnementet brukes for alle avdelinger som ikke har et spesifikt abonnement konfigurert.",
+    "department_subscriptions"      => "Avdelingsabonnementer",
+    "department_subscriptions_desc" => "Tilpass varslingsabonnementet for hver avdeling.",
+    "subscription_type"             => "Abonnementstype",
+    "subscription_default"          => "Standard",
+    "subscription_default_desc"     => "Bruk standard avdelingsabonnement for denne avdelingen.",
+    "subscription_all_activity"     => "All aktivitet",
+    "subscription_all_activity_desc" => "Motta varsler om all aktivitet i denne avdelingen.",
+    "subscription_unassigned_and_assigned" => "Ikke-tildelte og tildelte",
+    "subscription_unassigned_and_assigned_desc" => "Motta varsler fra denne avdelingen når det ikke er noen tildelte på saken, eller når du er tildelt. Varsler sendes også når du følger saken eller er @nevnt.",
+    "subscription_assigned_only"    => "Kun tildelte",
+    "subscription_assigned_only_desc" => "Motta varsler fra denne avdelingen kun når du er tildelt saken. Varsler sendes også når du følger saken eller er @nevnt.",
+    "subscription_ignore"           => "Ignorer",
+    "subscription_ignore_desc"      => "Ikke motta varsler for noen aktivitet i denne avdelingen, bortsett fra når du følger eller er @nevnt.",
+    "configure_on_operator_notifications" => "Avdelingsspesifikke varslingsabonnementer kan settes på siden for <a href=':route' target='_blank'>operatørvarsler</a>.",
+    "notification_channel_email"    => "E-post",
+    "notification_channel_browser"  => "Nettleser",
+    "browser_notifications_desc"    => "Systemet vil varsle deg om visse hendelser via nettleseren. Du kan velge mellom skrivebordsvarsler, varsler i appen, eller deaktivere dem helt.",
+    "failed_login_notification"     => "Mislykket operatørinnlogging",
+    "failed_login_notification_desc" => "Varsler deg når noen mislykkes i å logge inn på operatørpanelet eller får sin IP-adresse utestengt på grunn av flere mislykkede innloggingsforsøk.",
+    "notifications_desc"            => "Velg kanalene du ønsker å bli varslet om systemhendelser på, eller deaktiver individuelle varsler helt.",
+    "in_app_notifications"          => "Varsler i appen",
 );
