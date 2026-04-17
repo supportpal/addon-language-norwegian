@@ -376,7 +376,7 @@ return array(
     "new_operator_account_desc"     => "Du kan sende en bekreftelse-e-post for å la operatøren sette opp sin egen konto, eller bruk bryteren for å sette et passord for dem nedenfor.",
     "operator_set_password_desc"    => "Skriv vennligst inn et passord nedenfor for å fullføre oppsettet av operatørkontoen din.",
     "password_set_success"          => "Passord satt!",
-    
+
     /*
      * 5.7.0
      */
@@ -408,4 +408,5 @@ return array(
     "failed_login_notification_desc" => "Varsler deg når noen mislykkes i å logge inn på operatørpanelet eller får sin IP-adresse utestengt på grunn av flere mislykkede innloggingsforsøk.",
     "notifications_desc"            => "Velg kanalene du ønsker å bli varslet om systemhendelser på, eller deaktiver individuelle varsler helt.",
     "in_app_notifications"          => "Varsler i appen",
+
 );

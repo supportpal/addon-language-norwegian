@@ -172,4 +172,5 @@ return array(
      * 5.4.1
      */
     "throttle_error"        => "For mange forsøk, vennligst prøv igjen :in_time." // :in_time becomes in 1 minute, etc
+
 );

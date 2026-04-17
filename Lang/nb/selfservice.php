@@ -157,7 +157,7 @@ return array(
      */
     "in_reply_to"               => "svar til",
 
-     /*
+    /*
      * 5.7.0
      */
     "comment_notification"      => "Ny kommentar publisert",
@@ -168,4 +168,5 @@ return array(
      */
     "published_desc"            => "Bestemmer om artikkelen kan vises offentlig. Når den er publisert uten offentlige kategorier, kan den kun vises via direkte URL. Når den ikke er publisert, kan den kun vises av autentiserte operatører på forsiden.",
     "not_published"             => "Ikke publisert",
+
 );

@@ -277,4 +277,5 @@ return array(
      * 5.7.0
      */
     "operator_notifications_updated"    => "Oppdaterte varslingsinnstillingene til :rel.", // Updated Joe Blog's notification preferences.
+
 );

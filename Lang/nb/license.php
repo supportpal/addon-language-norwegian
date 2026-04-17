@@ -52,5 +52,5 @@ return array(
      * 5.5.0
      */
     "key_updated"       => "Lisensnøkkel ble oppdatert.",
-    
+
 );

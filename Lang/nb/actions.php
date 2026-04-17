@@ -82,7 +82,6 @@ return array(
     "pause_due_times"           => "Sett frister på pause",
     "unpause_due_times"         => "Gjenoppta frister",
 
-    
     /*
      * 5.5.0
      */

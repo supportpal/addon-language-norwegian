@@ -613,4 +613,5 @@ return array(
     "mention_notification_desc" => "Varsler deg når du blir nevnt i en sak.",
     "mark_resolved_and_post_reply" => "Merk som løst og publiser svar",
     "allowed_files_desc"        => "Aktiver for å tillate alle filtyper, eller deaktiver og spesifiser en liste over filendelser. Listen må være avgrenset med tegnet |, for eksempel: txt|png|jpg.",
+
 );
