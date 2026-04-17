@@ -53,7 +53,7 @@ return array(
      */
     "twitter_documentation"            => "Les vennligst vår dokumentasjon for oppsett av <a href=':link'>X</a>.",
     "twitter_redirect_url"             => "Følgende URL <strong>må</strong> angis for X-appens 'Tilbakekoblings-URL':",
-    
+
     /*
      * 5.4.1
      */
@@ -76,4 +76,5 @@ return array(
      */
     "microsoft_tenant_id"               => "Tenant-ID",
     "microsoft_tenant_id_desc"          => "Hvis du må bruke én enkelt tenant for støttede kontotyper, skriv inn tenant-ID-en; ellers lar du dette feltet stå tomt. Tenant-ID-en finner du i Microsoft Entra Identity-oversikten.",
+
 );
